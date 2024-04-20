@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container-fluid{
+    margin-top: -10px;
+   
+    width: 100%;
+    background-color: #a6cafe;
+     
+}
+
+.contain{
+    
+    width: 90%; 
+   /* Adjust as needed */
+    max-width: 900px;
+    height:auto;
+    
+    margin:0 auto;
+   
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f4eb;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+ 
+}
+.image img{
+
+    width: 60%;
+    height: 60%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.soc-icon img{
+    max-width: 100px;
+    width: 60%;
+    height: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #72feb1;
+    border: solid 1px black;
+}
+.soc-icon img:hover{
+    background-color: rgb(188, 224, 248);
+    box-shadow: rgba(17, 9, 178, 0.4) 0px 1px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+
+  
+}
+.soc-icon {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+#name{
+    text-align: center;
+}
+
+.info{
+   margin-top: 5%;
+   background-color: #d1cfcf;
+   padding-top: 10px;
+   width: auto;
+   height: auto;
+  
+}
+#phone,#email,#gps{
+    height: 20px;
+    margin-bottom: 15px;
+    
+}
+#phon_sec{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
+#phon_email,#phon_gps{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
